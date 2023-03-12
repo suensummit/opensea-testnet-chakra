@@ -1,3 +1,3 @@
 export const ENDPOINTS = {
-  configuration: "/configuration",
+  assets: "/assets",
 };

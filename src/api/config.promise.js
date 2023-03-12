@@ -1,6 +1,6 @@
 import axios from "../config/axios.config";
 import { ENDPOINTS } from "../constants/endpoints";
 
-export function getConfiguration() {
-  return axios.get(ENDPOINTS.configuration);
+export function getAssetList() {
+  return axios.get(ENDPOINTS.assets);
 }
